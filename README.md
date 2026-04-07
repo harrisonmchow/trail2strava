@@ -28,7 +28,7 @@ Strava doesn't have an AllTrails integration, so there's no way to automatically
 ### 1. Clone the repo
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/harrisonmchow/trail2strava.git
 cd AllTrailsToStrava
 ```
 
