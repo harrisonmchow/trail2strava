@@ -14,8 +14,8 @@ def set_session(response: Response, data: dict) -> None:
         key=COOKIE_NAME,
         value=encrypted,
         httponly=True,
-        secure=False,  # Set to True in production with HTTPS
-        samesite="lax",
+        secure=True,
+        samesite="none",
         max_age=86400,  # 24 hours
         path="/",
     )
@@ -32,4 +32,4 @@ def get_session(request: Request) -> dict | None:
 
 
 def clear_session(response: Response) -> None:
-    response.delete_cookie(key=COOKIE_NAME, path="/")
+    response.delete_cookie(key=COOKIE_NAME, path="/", secure=True, samesite="none")
