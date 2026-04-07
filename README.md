@@ -1,5 +1,7 @@
 # AllTrails to Strava
 
+I currently don't have Strava premium or a Garmin to automatically log my hikes/trail runs but I currently use AllTrails Pro membership for trail navigation. 
+
 Strava doesn't have an AllTrails integration, so there's no way to automatically sync your hikes. This app bridges that gap — upload a GPX file exported from AllTrails and it gets pushed to Strava as a fully detailed activity with GPS track, map, elevation, and auto-calculated splits.
 
 ## User Flow
